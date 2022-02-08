@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { deleteTodo, getTodos } from "../utils/ApiFunctions";
+import { getTodos } from "../utils/ApiFunctions";
 import TodoItem from "./TodoItem";
 
 function Todos() {
